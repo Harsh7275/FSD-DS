@@ -10,7 +10,13 @@ body {
     background-color: #f0f0f0;
     padding: 20px;
 }
+table{
+    width: 100%;
+    border-radius:12px;
+    border-width: 5px;
+    text-align: center;
 
+}
 
 .gallery-container {
     display:flex;
@@ -20,7 +26,11 @@ body {
     align-items: center;
 }
 
-
+.a{
+    align-items: center;
+    display: flex0;
+    justify-content: center;
+}
 .video-item {
     background-color: #fff;
     padding: 15px;
