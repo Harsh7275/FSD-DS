@@ -1,0 +1,118 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #7b7878;
+}
+
+
+.navbar {
+  background-color: #add8f7;
+  padding: 15px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color:  #d04a4a;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #d04a4a;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+
+.nav-links a:hover {
+  color: #ff6347; 
+}
+
+.login{
+  list-style: none;
+  display: flex;
+  gap:50px;
+}
+.login li {
+  display: inline;
+  
+}
+
+.button {
+  border: none;
+  color: rgb(123, 119, 119);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {background-color: #b6f0db;
+  color: black;
+  border: 2px solid #008CBA;
+} 
+
+
+.button1:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.button2 {
+  background-color: rgb(244, 182, 182);
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+
+.main-content{
+  display: flex;
+  border: 3px solid black;
+  height: 400px;
+  justify-content: space-between; 
+  align-items: flex-start;
+  padding: 20px;
+}
+ 
+
+
