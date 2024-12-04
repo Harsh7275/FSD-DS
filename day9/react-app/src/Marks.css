@@ -1,5 +1,14 @@
 table{
-  height: 7rem;
-  width: 5rem;
+  height:7rem;
+  width: 20rem;
   border: 2px solid black;
+  text-align: justify;
+  margin-top: 3rem;
+}
+div{
+  height: 30rem;
+  width: 20rem;
+  border: 2px solid black;
+  text-align:justify;
+  justify-content: center;
 }
